@@ -1,0 +1,209 @@
+ /* #root {
+  max-width: 1280px;
+   margin: 0 auto; 
+  padding: 2rem;
+   text-align: center; 
+} */
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-rotate-car {
+    animation: rotateCar 12s linear infinite;
+  }
+
+  @keyframes rotateCar {
+ 
+    
+   50% {
+transform: scale(2);
+    };
+
+  }
+}
+
+
+
+.box-1animte{
+animation: background 5s linear infinite;
+transform: perspective(1000px);
+background: #32ff7e;
+
+}
+
+
+@keyframes background{
+20%{
+  background:blue;
+}
+30%{
+  background-image: linear-gradient(to right,black,#32ff7e);
+}
+20%{
+  transform: rotateY(50deg);
+}
+20%{
+background-image: linear-gradient(#ffffff,#ffa502);
+}
+5%{
+background-image: linear-gradient(#ffffff,#ffa502,#ff6348,#be2edd);
+}
+5%{
+transform: scaleX(0.1);
+transform: skewY(-50deg);
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slidein-text{
+   line-height: 25px;
+   font-family:"Bruno Ace SC", sans-serif ;
+}
+
+body{
+  overflow-x: hidden; 
+  background: #fff; 
+/* background-image:linear-gradient(to left,#4834d4 ,#182C61,#4834d4); */
+}
+
+.logo{
+   font-family: "Bruno Ace SC", sans-serif ;
+}
+
+
+.box:hover{
+    
+    /* box-shadow: -2px 18px 13px #f6f6f6; */
+    transition: 1.0s;
+ 
+}
+
+
+.box:hover img{
+    background: #f6f6f6;
+    box-shadow: -2px -3px 5px  #f6f6f6;
+    border-radius: 10px;}
+
+
+
+.box:hover img{
+  
+   transition: 1.0s;
+    transform:translatey(10px) ;}
+
+    .box:hover{
+      background:#181b23 ;
+    }
+    .box:hover{
+     color: black;
+    }
+    .box:hover img{
+      background:#181b23 ;
+    }
+
+    button:hover{
+      
+      
+      transition: 0.5s;
+    }
+
+    .bgg{
+      background-image: url(assets/them.webp);
+      background-position: center;
+      background-size: cover;
+    }
+
+    /* .bk{
+      background-image: url(images/bk.webp);
+      background-position: center;
+      background-size: cover;
+    } */
+/* 
+    .box:hover{
+      transform: scale(1.2);
+      transition-delay: 1s;
+    } */
+
+
+    .absolute{
+      font-weight: bolder;
+    }
+
+    .imgside{
+      transform: scale(1.1);
+    }
+
+    .textside{
+      font-family: sans-serif;
+      
+    }
+
+    .map{
+      
+      background-image: url(assets/map3.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .buy{
+     font-family: "Ubuntu", sans-serif;
+     background-image: linear-gradient(#1B1464,#5c4e96,#006266);
+   
+    }
+
+  .bgonimges{
+    color: #fff;
+background-image: linear-gradient(#642e58,#08fcf4);
+  }
+
+  .buyp{
+    background-image: linear-gradient(#192a56,#192a56);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imghover img:hover{
+transform: scale(4);
+cursor: zoom-in;
+transition-delay: 0.5s;
+background: none;
+
+}
+
+/* .slider-box-p2{
+  line-height: 28px;
+} */
+
+.hoverBtn-one-images:hover{
+  transition: 0.5s;
+  background-image: linear-gradient(to left,#4ecbc7,#cd66b6);
+}
