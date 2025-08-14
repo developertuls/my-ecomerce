@@ -7,7 +7,7 @@ A modern car e-commerce web application built with **React**, **Vite**, and **Ta
 ## 🔗 Live Demo
 
 Check the main live website here:  
-👉 [https://glowing-gingersnap-2be01a.netlify.app](https://glowing-gingersnap-2be01a.netlify.app)
+👉 [https://glowing-gingersnap-2be01a.netlify.app](https://heroic-moxie-a0dff2.netlify.app/)
 
 ---
 
