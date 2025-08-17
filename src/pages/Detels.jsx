@@ -2,7 +2,7 @@
 import { useParams } from "react-router-dom";
 
 export const Detels = () => {
-  const { id } = useParams(); // ডায়নামিক id এখানে পাবেন
+  const { id } = useParams(); 
 
   return (
     <div className="mt-[80px] h-[80vh]">
